@@ -3,7 +3,8 @@
  *
  * By Hakim El Hattab, http://hakim.se
  */
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
+/* @import url(../../lib/font/source-sans-pro/source-sans-pro.css); */
+@import url(reveal.js/lib/font/source-sans-pro/source-sans-pro.css);
 section.has-light-background, section.has-light-background h1, section.has-light-background h2, section.has-light-background h3, section.has-light-background h4, section.has-light-background h5, section.has-light-background h6 {
   color: #222; }
 
@@ -11,20 +12,21 @@ section.has-light-background, section.has-light-background h1, section.has-light
  * GLOBAL STYLES
  *********************************************/
 body {
-/*  background: #191919; */
-/*  background-color: #191919; } */
-    background: #000000;
-    background-color: #000000;}
+ background: white;
+/*  background-color: #191919; }
+    /* background: #000000;
+    background-color: #000000; */
+}
 
 .reveal {
-/*  font-family: "Source Sans Pro", Helvetica, sans-serif; */
-  font-family: "CamingoCode", Georgia, serif;
+ font-family: "Source Sans Pro", Helvetica, sans-serif;
+  /* font-family: "CamingoCode", Georgia, serif; */
   font-size: 42px;
   font-weight: normal;
-  color: #fff; }
+  color: black; }
 
 ::selection {
-  color: #fff;
+  color: black;
   background: #bee4fd;
   text-shadow: none; }
 
@@ -48,7 +50,7 @@ body {
 .reveal h5,
 .reveal h6 {
   margin: 0 0 20px 0;
-  color: #fff;
+  color: black;
   font-family: "Spartan MB", Helvetica, sans-serif;
 /*  font-family: "Rubik", Helvetica, sans-serif; */
   font-weight: 800;
@@ -57,14 +59,14 @@ body {
   text-transform: uppercase;
   text-shadow: none;
   word-wrap: break-word;
-  background-color:#000}
+}
 
 .reveal h1 {
   font-size: 1.8em;
   color: #01aefd}
 
 .reveal h2 {
-  font-size: 1.7em; 
+  font-size: 1.7em;
   color: #01b255}
 
 .reveal h3 {
@@ -97,7 +99,7 @@ body {
 
 .reveal special {
     font-family: "Spartan MB", "Helvetica", Sans;
-    font-weight: 600; 
+    font-weight: 600;
     color: #01aefd;}
 
 .reveal em {
@@ -311,4 +313,3 @@ body {
   bottom: 1em;
   left: 1em;
 }
-
